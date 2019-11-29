@@ -1,7 +1,7 @@
 /* Configuração Responsiva */
 
 /* Mobile */
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     /* Configuração do menu */
     #menu {
         background-color: #000000;
