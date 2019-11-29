@@ -1,0 +1,205 @@
+/* Configuração Responsiva */
+
+/* Mobile */
+@media (max-width: 576px) {
+    /* Configuração do menu */
+    #menu {
+        background-color: #000000;
+        height: auto;
+        position: relative;
+    }
+
+    #menu ul {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+    }
+
+    #menu ul li {
+        padding: 5px;
+
+    }
+
+    #menu ul li a {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    #img-cabecalho {
+        height: 100%;
+    }
+
+    /* Configuração da seção notícias */
+    #noticias {
+        width: 100%;
+    }
+    
+    #title-nt {
+        margin-top: 20px;
+        font-size: 26px;
+    }
+
+    #cards-nt {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-nt {
+        width: 80%;
+        height: auto;
+        margin-bottom: 50px;
+        margin-top: 0px;
+    }
+
+    .logo-nt {
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .text-nt {
+        font-size: 14px;
+    }
+
+    .btn-nt {
+        margin: 50px 0px 30px 0px;
+        width: 60%;
+        height: 40px;
+    }
+
+    .btn-nt a {
+        font-size: 16px;
+    }
+
+    /* Configuração da seção destaques */
+    #destaques {
+        width: 100%;
+        background-image: none;
+        height: auto;
+    }
+
+    #title-dt, #sub-title-dt, #text-dt {
+        color: #231F20;
+        font-size: 26px;
+    }
+
+    #sub-title-dt, #text-dt {
+        font-size: 16px;
+    }
+
+    #cards-dt {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-dt {
+        width: 80%;
+        box-shadow: 0px 3px 30px 0px #231F20;
+        margin-top: 30px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .card-dt:hover {
+        height: auto;
+    }
+
+    #card-02-dt, #card-04-dt {
+        transform: translate(0, 0);
+    }
+
+    #card-03-dt {
+        transform: translate(0, 0);
+    }
+
+    .logo-dt {
+        width: 40%;
+        border-radius: 50%;
+    }
+
+    .text-dt-card-t {
+        font-size: 18px;
+    }
+
+    .text-dt-card-sb, .text-dt-card-sb2 {
+        margin-bottom: 10px;
+    }
+
+    /* Configuração da seção coberturas */
+    #coberturas {
+        width: 100%;
+    }
+
+    #title-cb {
+        font-size: 26px;
+    }
+
+    #sub-title-cb {
+        font-size: 22px;
+    }
+
+    /*Configuração da seção blog*/
+    #cards-blog {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .logo-blog {
+        width: 100%;
+    }
+
+    .card-blog {
+        width: 80%;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .btn-blog {
+        margin-top: 20px;
+        width: 60%;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .btn-blog a {
+        font-size: 16px;
+    }
+
+    /*Configuração do rodapé*/
+    #rodape {
+        padding: 0px;
+    }
+
+    #title-news {
+        font-size: 18px;
+    }
+
+    #email-news {
+        font-size: 14px;
+        padding: 5px;
+        width: 80%;
+    }
+
+    #btn-rodape-cad {
+        width: 30%;
+        height: 40px;
+    }
+
+    #btn-rodape-cad a {
+        font-size: 14px;
+    }
+    
+    #text-spam, #text-copy {
+        font-size: 12px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 992px) {
+
+}
+
+/* Large devices */
+@media (min-width: 1200px) {
+
+}
