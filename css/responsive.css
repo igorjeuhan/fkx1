@@ -87,16 +87,18 @@
     }
 
     #cards-dt {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
+        flex-wrap: wrap;
     }
 
     .card-dt {
-        width: 80%;
+        width: 45%;
         box-shadow: 0px 3px 30px 0px #231F20;
-        margin-top: 30px;
+        margin-top: 30px!important;
         height: auto;
         margin-bottom: 10px;
+        margin: 10px;
     }
 
     .card-dt:hover {
@@ -135,6 +137,12 @@
 
     #sub-title-cb {
         font-size: 22px;
+    }
+
+    #tb-cb-results tr {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
 
     /*Configuração da seção blog*/
